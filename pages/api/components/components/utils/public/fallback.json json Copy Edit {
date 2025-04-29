@@ -1,0 +1,17 @@
+{
+  "prices": [
+    { "label": "Jan", "value": 305000 },
+    { "label": "Feb", "value": 310000 },
+    { "label": "Mar", "value": 312500 }
+  ],
+  "inventory": [
+    { "label": "Jan", "value": 240 },
+    { "label": "Feb", "value": 255 },
+    { "label": "Mar", "value": 262 }
+  ],
+  "buyerScore": [
+    { "label": "Jan", "value": 42 },
+    { "label": "Feb", "value": 45 },
+    { "label": "Mar", "value": 50 }
+  ]
+}

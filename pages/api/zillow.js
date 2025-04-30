@@ -9,8 +9,8 @@ export default async function handler(req, res) {
     const response = await fetch(`https://zillow-com1.p.rapidapi.com/people/searchByAddress?address=${encodeURIComponent(address)}&location=${encodeURIComponent(location)}&format=full`, {
       method: 'GET',
       headers: {
-        'x-rapidapi-host': process.env.ZILLOW_API_HOST,
         'x-rapidapi-key': process.env.ZILLOW_API_KEY,
+        'x-rapidapi-host': process.env.ZILLOW_API_HOST,
       },
     });
 
